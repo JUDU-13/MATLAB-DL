@@ -1,0 +1,53 @@
+letter = readtable("A.txt")
+letter.X = 1.5*letter.X;
+plot(letter.X,letter.Y)
+axis equal
+letter.Time = letter.Time - letter.Time(1)
+letter.Time = letter.Time/1000
+plot(letter.Time,letter.X)
+plot(letter.Time,letter.Y)
+
+letter = readtable("V.txt")
+letter.X = 1.5*letter.X;
+plot(letter.X,letter.Y)
+axis equal
+letter.Time = letter.Time - letter.Time(1)
+letter.Time = letter.Time/1000
+plot(letter.Time,letter.X)
+plot(letter.Time,letter.Y)
+
+letter = readtable("M.txt")
+letter.X = 1.5*letter.X;
+plot(letter.X,letter.Y)
+axis equal
+letter.Time = letter.Time - letter.Time(1)
+letter.Time = letter.Time/1000
+plot(letter.Time,letter.X)
+plot(letter.Time,letter.Y)
+
+letter = readtable("H.txt")
+letter.X = 1.5*letter.X;
+plot(letter.X,letter.Y)
+axis equal
+letter.Time = letter.Time - letter.Time(1)
+letter.Time = letter.Time/1000
+plot(letter.Time,letter.X)
+plot(letter.Time,letter.Y)
+
+letter = readtable("J.txt")
+letter.X = 1.5*letter.X;
+plot(letter.X,letter.Y)
+axis equal
+letter.Time = letter.Time - letter.Time(1)
+letter.Time = letter.Time/1000
+plot(letter.Time,letter.X)
+plot(letter.Time,letter.Y)
+
+letter = readtable("R.txt")
+letter.X = 1.5*letter.X;
+plot(letter.X,letter.Y)
+axis equal
+letter.Time = letter.Time - letter.Time(1)
+letter.Time = letter.Time/1000
+plot(letter.Time,letter.X)
+plot(letter.Time,letter.Y)
